@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import { useStateValue } from '../context/stateProvider';
 import { actionType } from '../context/reducer';
 import { useState } from 'react';
+import MenuContainer from './MenuContainer';
 
 const Header = () => {
   const firebaseAuth = getAuth(app);
