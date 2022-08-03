@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       margin: {
         320: "320px",
+        60: "60px",
       },
       width: {
         150: "150px",
@@ -43,7 +44,7 @@ module.exports = {
         620: "620px",
       },
       colors: {
-        textColor: "#101010",
+        textColor: "#515151",
         activeText: "#D6230A",
         gradientBg: "rgba(116, 249, 105,0.4)",
         whiteAlpha: "rgba(255,255,255,0.2)",
@@ -55,6 +56,8 @@ module.exports = {
         headingColor: "#2e2e2e",
         primary: "#f5f3f3",
         cardOverlay: "rgba(256,256,256,0.4)",
+        lightTextGray: "#9ca0ab",
+        rowBg: "rgba(255,131,0,0.05)",
       },
       screens: {
         sm: "640px",
@@ -65,5 +68,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [ require('tailwind-scrollbar')],
 }
